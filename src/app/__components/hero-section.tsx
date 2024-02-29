@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function HeroSection() {
   return (
-    <div className="overflow-hidden dark:bg-[#0B0B0F] bg-white w-full">
+    <section className="overflow-hidden dark:bg-[#0B0B0F] bg-white w-full">
       <MacbookScroll
         title={<span>Skyrocket Your Online Impact</span>}
         badge={
@@ -15,7 +15,7 @@ function HeroSection() {
         src={`/assets/pawel-czerwinski-VD5N6kfe8Mc-unsplash.jpg"`}
         showGradient={false}
       />
-    </div>
+    </section>
   );
 }
 // Peerlist logo
