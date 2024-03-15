@@ -54,12 +54,12 @@ export const MacbookScroll = ({
   const scaleX = useTransform(
     scrollYProgress,
     [0, 0.3],
-    [1.2, isMobile ? 1 : 1.5]
+    [1.2, isMobile ? 1.2 : 1.5]
   );
   const scaleY = useTransform(
     scrollYProgress,
     [0, 0.3],
-    [0.6, isMobile ? 1 : 1.5]
+    [0.6, isMobile ? 1.2 : 1.5]
   );
   const translate = useTransform(scrollYProgress, [0, 1], [0, 1500]);
   const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.3], [-28, -28, 0]);
@@ -69,9 +69,9 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className="min-h-[200vh] md:min-h-[400vh]  flex flex-col items-center py-0 md:py-60 justify-start flex-shrink-0 [perspective:800px] transform  md:scale-110  scale-[0.35] sm:scale-50 relative bg-grid-white/[0.2] bg-black"
+      className="min-h-[200vh] md:min-h-[400vh]  flex flex-col items-center py-0 md:py-60 justify-start flex-shrink-0 [perspective:800px] transform  md:scale-110  scale-[0.55] sm:scale-50 relative "
     >
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
+      <div className="hidden absolute pointer-events-none inset-0 md:flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
 
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
@@ -83,7 +83,7 @@ export const MacbookScroll = ({
           translateY: textTransform,
           opacity: textOpacity,
         }}
-        className="dark:text-white text-white text-7xl font-bold mb-10 text-center"
+        className="dark:text-white text-white text-9xl md:text-7xl font-bold mb-10 text-center"
       >
         {title || (
           <span>

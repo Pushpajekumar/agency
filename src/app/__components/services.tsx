@@ -7,8 +7,8 @@ import { SparklesCore } from "@/components/ui/sparkles";
 const Services = () => {
   return (
     <section className="pb-20 bg-black">
-      <div className="h-[25rem]  w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
-        <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+      <div className="h-[20rem]  w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
+        <h1 className="md:text-7xl text-5xl lg:text-9xl font-bold text-center text-white relative z-20">
           Services
         </h1>
         <div className="w-[40rem] h-40 relative">
@@ -32,7 +32,7 @@ const Services = () => {
           <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 px-3 md:px-0 md:grid-cols-3 md:gap-5">
         <CardContainer className="inter-var">
           <CardBody className=" relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-auto sm:w-[20rem] h-auto rounded-xl p-6 border  ">
             <CardItem translateZ="50" className="text-xl font-bold text-white">
