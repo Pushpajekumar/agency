@@ -7,6 +7,8 @@ import Faqs from "./__components/faqs";
 import Chem from "./__components/chem";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { BackgroundBeamsDemo } from "./__components/waitlist";
+import { HoverEffect } from "@/components/ui/card-hover-effect";
+import { CardHoverEffectDemo } from "./__components/new-service-card";
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <HeroSection />
       <Chem />
       {/* <Services /> */}
+      <CardHoverEffectDemo />
       <Portfolio />
       <Testimonials />
       <BackgroundBeamsDemo />
