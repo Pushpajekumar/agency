@@ -20,7 +20,7 @@ export default function Home() {
       <CardHoverEffectDemo />
       <Portfolio />
       <Testimonials />
-      <BackgroundBeamsDemo />
+      {/* <BackgroundBeamsDemo /> */}
       <Faqs />
     </main>
   );
