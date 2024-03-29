@@ -184,10 +184,18 @@ export const Lid = ({
         className="h-96 w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2"
       >
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
-        <Image
+        {/* <Image
           src={"/assets/pawel-czerwinski-VD5N6kfe8Mc-unsplash.jpg"}
           alt="aceternity logo"
           fill
+          
+        /> */}
+
+        <video
+          src="/assets/1109695_Animation_Dark-background_Animation_1920x1080.mp4"
+          loop
+          muted
+          autoPlay
           className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
         />
       </motion.div>

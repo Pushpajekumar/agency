@@ -13,7 +13,7 @@ import { CardHoverEffectDemo } from "./__components/new-service-card";
 export default function Home() {
   return (
     <main>
-      {/* <NavbarDemo /> */}
+      <NavbarDemo />
       <HeroSection />
       <Chem />
       {/* <Services /> */}
