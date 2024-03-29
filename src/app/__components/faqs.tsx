@@ -8,7 +8,7 @@ import {
 
 export default function Faqs() {
   return (
-    <section className="max-w-4xl mx-auto h-full py-20 px-3 md:py-0 md:px-0 md:h-[100vh] flex justify-center items-center ">
+    <section className="max-w-4xl mx-auto py-20 px-3 md:py-0 md:px-0 h-[100vh] flex justify-center items-center ">
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
           <AccordionTrigger>Is it accessible?</AccordionTrigger>
